@@ -1,0 +1,5 @@
+- name:  --yum install nginx
+  yum:
+    name: nginx
+    state: present
+  tags: ins_anginx
